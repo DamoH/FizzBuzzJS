@@ -4,6 +4,11 @@ Player.prototype.play = function(song) {
   this.currentlyPlayingSong = song;
   this.isPlaying = true;
 };
+// .... same as...
+// class Player
+//   def play(song)
+//   end
+// end
 
 Player.prototype.pause = function() {
   this.isPlaying = false;
